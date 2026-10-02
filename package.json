@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5173 --host",
-    "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "dev": "npx vite --port 5173 --host",
+    "build": "npx vite build",
+    "lint": "npx oxlint",
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "cors": "^2.8.6",
